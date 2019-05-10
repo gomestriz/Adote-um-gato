@@ -1,0 +1,226 @@
+body {
+  overflow-x: hidden;
+}
+
+.font {
+    font-family: Montserrat,sans-serif;
+}
+
+
+#calltoaction1 {
+  background-image: url(https://uploaddeimagens.com.br/images/002/086/778/full/gatinho-1080p.jpg?1557005454);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-color: #EEE;
+}
+
+#test1 {
+  min-height: 720px;
+  height: auto;
+}
+
+@media only screen and (max-width: 600px) {
+  #calltoaction1 {
+    background-image: none;
+  }
+  #test1 {
+    min-height: 480px;
+  }
+}
+
+#adotegato {
+  max-width: 270px;
+  margin-top: 20%;
+}
+
+#adotegato mark{
+    background-color: #E291A8;
+    color: white;
+}
+
+#calltoaction1 h2 {
+  font-size: 40px;
+  font-weight: bolder;
+}
+
+#calltoaction1 p {
+  font-size: 21.25px;
+  max-width: 150px;
+  font-weight: 500;
+}
+
+
+#form1 {
+  background-color: #86CEEB;
+  padding: 10px;
+  border-radius: 5px;
+  max-width: 300px;
+  margin-top: 20%;
+  margin-bottom: 20%;
+}
+
+#formtitle1 {
+  text-align: center;
+}
+
+#formtitle2 {
+  margin-top: -8%;
+  text-align: center;
+}
+
+#formtitle {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+#formsubtitle {
+  font-weight: 400;
+  font-size: 10px;
+}
+
+#butao1 {
+  background-color: #4a9cbe;
+  border: none;
+  color: white;
+}
+
+#butao1:hover {
+  background-color: #217A9F;
+}
+
+#pqgato {
+  background-color: #86CEEB;
+  text-align: center;
+  padding-bottom: 5%;
+}
+
+#titlegato {
+  padding-top: 1%;
+  color: white;
+}
+
+#titlegato h2 {
+  font-weight: bolder;
+  font-size: 40px;
+}
+
+#textopq {
+  font-size: 15px;
+}
+
+#textopq p {
+  max-width: 200px;
+  font-weight: 600;
+}
+
+#formtitle3 {
+  padding-top: 10%;
+  text-align: left;
+}
+
+#imagem2 {
+  display: none;
+}
+
+@media only screen and (max-width: 600px){
+  #imagem1 {
+    display: none;
+  }
+
+  #imagem2 {
+    display: block;
+    padding: 2px;
+  }
+}
+
+#howtogato {
+  background-color: #EEE;
+}
+
+#comogato img {
+  max-width: 100%;
+}
+
+#comogato h2 {
+  font-weight: bolder;
+  font-size: 40px;
+  color: #86CEEB;
+  text-align: center;
+  padding-top: 1%;
+}
+
+#comentarios {
+  background-color: #86CEEB;
+  padding: 60px;
+}
+
+.textcomment {
+  max-width: 300px;
+  text-align: justify;
+  font-weight: 500;
+  color: white;
+}
+
+.comment {
+  height: 100px;
+  width: 100px;
+  margin-left: 30%;
+  border-radius: 5px;
+}
+
+#padocao {
+  background-image: url(https://uploaddeimagens.com.br/images/002/086/777/original/gatinho2-1080p.jpg?1557005406);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: left;
+  background-color: #EEE;
+  min-height: 720px;
+}
+
+@media only screen and (max-width: 600px) {
+  #padocao {
+    background-image: none;
+  }
+}
+
+#form2 {
+  margin-top: 25%;
+  background-color: #EEE;
+  padding: 3%;
+  border-radius: 5px;
+}
+
+#form2t1, #form2t2 {
+  text-align: center;
+}
+
+#formsubtitle2 {
+ font-size: 13.5px;
+}
+
+.bodyform {
+  font-weight: 500;
+}
+
+#formtitle4 {
+  font-size: 40px;
+  font-weight: bolder;
+  margin-top: -5%;
+}
+
+#footer {
+  background-color: #EEE;
+  font-size: 17px;
+  font-weight: bolder;
+  text-align: center;
+}
+#footer p {
+  margin-top: 1%;
+}
+
+#footer mark{
+  background-color: #EEE;
+  color: #86CEEB;
+  text-decoration: none;
+}
